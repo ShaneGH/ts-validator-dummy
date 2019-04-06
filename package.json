@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "node \"./node_modules/typescript/lib/tsc.js\"",
-    "test": "node \"./node_modules/ts-validator/test/testBin/src/code-gen/executor.js\" \"C:\\Dev\\ts-validator-dummy\\src\\my.ts\""
+    "test": "node \"./node_modules/ts-validator/dummy/build.js\" \"C:\\Dev\\ts-validator-dummy\\src\\my.ts\""
   },
   "author": "",
   "license": "ISC",

@@ -1,2 +1,7 @@
 import { validate } from "ts-validator";
-validate("hello", "C:/Dev/ts-validator-dummy/src/my.ts?1");
+validate("hello");
+
+type TTT = {val1: 5, val2: TTT}
+var yy: TTT = {} as TTT;
+
+validate(yy);
