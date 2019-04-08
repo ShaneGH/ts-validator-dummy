@@ -1,5 +1,5 @@
 {
-  "name": "dummy-ts-validator",
+  "name": "ts-validator-dummy",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ts-validator": "file:../ts-validator",
-    "typescript": "^3.4.1"
+    "ts-validator": "file:../ts-validator"
+  },
+  "devDependencies": {
+    "typescript": "^3.4.2"
   }
 }
