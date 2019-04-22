@@ -1,10 +1,6 @@
-push-location ../ts-validator
-if (-not $?) {
-    pop-location
-    return
-}
+push-location ../ts-validator/ts-validator.code-gen
 
-npm run dummy
+npm run build
 pop-location
 if (-not $?) {
     return
